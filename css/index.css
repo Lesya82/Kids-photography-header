@@ -17,7 +17,7 @@ body {
      .box {
         background-color: #FF4500;
         color: #fff;
-       padding: 10px 20px 10px 20px;
+       padding: 5px 20px 5px 20px;
     }
 
     .a {
@@ -55,3 +55,18 @@ header .text-white a{
     border: 2px solid #FF4500; 
     padding: 2px;/*поле навколо тексту*/
    } 
+   .background-image{
+  background-image: url(../img/marta.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 480px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 0 550px 70px;
+  font-size: 25px;
+  font-family: "Lucida Calligraphy", cursive;
+  text-align: center;
+
+}
