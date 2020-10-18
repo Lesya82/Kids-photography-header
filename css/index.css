@@ -1,0 +1,57 @@
+
+:root{
+    --main-color: black;
+    font-family: cursive;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+    
+.wrapper {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: auto auto ;   
+}
+     .box {
+        background-color: #FF4500;
+        color: #fff;
+       padding: 10px 20px 10px 20px;
+    }
+
+    .a {
+        grid-column: 1/2 span;
+        grid-row: 1;
+        text-align: start;
+        font-size: 180%;
+    }
+    
+    .b {
+        grid-column: 1 ;
+        grid-row: 2 ;
+    }
+    .c {
+        grid-column: 2;
+        grid-row: 2; 
+    }
+
+header .menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}  
+header .text-white a{
+    color: white;
+    text-decoration: none;
+    font-size: 180%;
+    padding: 2px;/*поле навколо тексту*/
+    border: 6px solid #FF4500; 
+}  
+
+ header  a:hover {
+    background:white ; /* Цвет фона под ссылкой */ 
+    color:#FF4500; /* Цвет ссылки */ 
+    border: 2px solid #FF4500; 
+    padding: 2px;/*поле навколо тексту*/
+   } 
